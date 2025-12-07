@@ -1,17 +1,23 @@
-This Agentic Ai project is created using langGraph. It is a sidekick which can complete tasks given by the user and has access to the following tools:
-1. Playwright for surfing internet
-2. Wikipedia to look up for information
-3. GoogleSerper for looking up google
-4. Pushover for sending notification
+This project is built using LangGraph and serves as an autonomous sidekick capable of completing user-defined tasks. It integrates the following tools:
 
-This agent has an evaluator which helps it to improves the task completing agent results until the success criteria is met. The success criteria can also be entered manually.
-The UI is created using Gradio.
+Playwright – Web browsing and internet interaction
+Wikipedia – Information lookup
+Google Serper – Search engine queries
+Pushover – Sending notifications
+Python REPL – Sandboxed code execution
+LangSmith – Observability and progress monitoring
 
-tools.py define the tools that are available.
+Key Features:
 
-graph.py sets up the Agentic Workflow using langGraph.
+Evaluator Loop that iteratively improves task results until success criteria are met
+Manual Success Criteria option for user-defined evaluation
+Gradio UI for running tasks, viewing outputs, and interacting with the agent
 
-app.py helps run the agent, cleanup resources if needed and sets up the gradio UI.
+Project Structure:
+
+tools.py – Defines and configures available tools
+graph.py – Sets up the agentic workflow using LangGraph
+app.py – Runs the agent, handles resource cleanup, and initializes the Gradio interface
 
 Here is the Graph created for the agent:
 
