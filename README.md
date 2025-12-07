@@ -12,4 +12,5 @@ graph.py sets up the Agentic Workflow using langGraph
 app.py helps run the agent, cleanup resources if needed and sets up the gradio UI.
 
 Here is the Graph created for the agent:
+
 <img width="226" height="357" alt="image" src="https://github.com/user-attachments/assets/9993f639-40b9-4eea-bf1a-5ee8d2e786a2" />
