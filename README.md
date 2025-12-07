@@ -8,7 +8,9 @@ This agent has an evaluator which helps it to improves the task completing agent
 The UI is created using Gradio.
 
 tools.py define the tools that are available.
-graph.py sets up the Agentic Workflow using langGraph
+
+graph.py sets up the Agentic Workflow using langGraph.
+
 app.py helps run the agent, cleanup resources if needed and sets up the gradio UI.
 
 Here is the Graph created for the agent:
